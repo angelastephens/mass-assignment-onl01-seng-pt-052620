@@ -6,6 +6,7 @@ class Person
 
   def initialize(attributes)
     attributes.each do |key,value|
+      self.send #{
     # @name=name
     # @birthday=birthday
     # @hair_color=hair_color
